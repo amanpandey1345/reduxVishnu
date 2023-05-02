@@ -54,7 +54,7 @@ console.log(data1);
         {loading ? (  
           <div className="log">
           <ScaleLoader
-          color={"red"}
+          color={"blue"}
           loading={loading}
           // cssOverride={override}
           className="log"
@@ -87,7 +87,7 @@ console.log(data1);
         {loading1 ? (
                     <div className="log">
           <ScaleLoader
-          color={"red"}
+          color={"blue"}
           loading={loading}
 
           size={250} 
