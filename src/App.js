@@ -6,6 +6,7 @@ import "./App.css"
 import AccordionList from "./AccordionList";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Accordion from "./Accordion";
+import Tables from "./Tables";
 
 function App() {
   const dispatch = useDispatch();
@@ -30,11 +31,12 @@ function App() {
     dispatch(ifsc(ifscCode));
   };
 
-// console.log(data[0].PostOffice);
-console.log(data1);
 
   return (
     <div className="App">
+            <div className="box1">
+        <Tables/>
+      </div>
       <div className="box1">
       <h1>Pincode Information</h1>
 
@@ -109,8 +111,9 @@ console.log(data1);
         )}
       </div>
       </div>
+
     </div>
-  );
+  );  
 }
 
 export default App;

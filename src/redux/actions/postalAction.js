@@ -15,7 +15,7 @@ export const postal = (pincode) => async (dispatch) => {
     dispatch({ type: "postalSuccess", payload:data});
   } catch (error) {
     dispatch({type:"postalFail", payload: error.response.data})
-    console.log(error);
+    // console.log(error);
   }
 };
 
