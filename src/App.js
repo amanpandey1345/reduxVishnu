@@ -56,7 +56,7 @@ function App() {
         {loading ? (  
           <div className="log">
           <ScaleLoader
-          color={"red"}
+          color={"blue"}
           loading={loading}
           // cssOverride={override}
           className="log"
@@ -89,7 +89,7 @@ function App() {
         {loading1 ? (
                     <div className="log">
           <ScaleLoader
-          color={"red"}
+          color={"blue"}
           loading={loading}
 
           size={250} 
