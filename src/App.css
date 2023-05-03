@@ -168,6 +168,10 @@
     margin-bottom: 10px;
     background-color: #fff;
 }
+.tbs{
+    overflow-x: scroll;
+    width: 100%;
+}
 
 @media screen and (max-width: 980px) {
     .post-data{
