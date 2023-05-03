@@ -108,7 +108,9 @@ const Tables = () => {
               placeholder="Username"
               onChange={(e) => setUserName(e.target.value)}
             />
-            <button onClick={addSubmits}>Add</button>
+            <button onClick={addSubmits}>
+              Submit
+            </button>
           </div>
           {
             msg && <span className="msg">All Fields are Required!!!</span>
